@@ -903,6 +903,8 @@ public void onRequestPermissionsResult(int requestCode, String[] permissions,  i
                e.printStackTrace();
            }
        }
+       disableRadio();
+       enableRadio();
    }
 
    private static final int RECORDTIMER_EXPIRED = 0x1003;
